@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validating the login with valid credentials",
+        "description": "",
+        "id": "validating-the-login-functionality;validating-the-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1950798,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in login page page",
+            "match": {
+              "location": "StepDefinition.user_is_in_login_page_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63631,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters valid username and valid password",
+            "match": {
+              "location": "StepDefinition.the_user_enters_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63631,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should me taken to HomePage",
+            "match": {
+              "location": "StepDefinition.user_should_me_taken_to_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login functionality",
+    "description": "",
+    "id": "validating-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/CIBI/eclipse-workspace/Jenkin/src/test/resources/Login.Feature",
+    "tags": []
+  }
+]

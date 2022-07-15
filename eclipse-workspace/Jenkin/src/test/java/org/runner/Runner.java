@@ -11,9 +11,9 @@ import cucumber.api.junit.Cucumber;
 (
 		features = {"C:\\Users\\CIBI\\eclipse-workspace\\Jenkin\\src\\test\\resources\\Login.Feature"},
 		glue = {"org.stepDefinition"},
-		dryRun = true,
+		dryRun = false,
 		monochrome = true,
-		plugin= {"pretty","json:target/cucumber-report/cucumber.json"}
+		plugin= {"pretty","html:target/cucumber-report","json:target/cucumber-report/cucumber.json"}
 )
 
 public class Runner {
