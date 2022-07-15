@@ -13,9 +13,9 @@
 					<configuration>
 
 						<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
-						<testSourceDirectory>C:\Users\CIBI\eclipse-workspace\TheMarket\src\test\java</testSourceDirectory>
+						<testSourceDirectory>C:\Users\CIBI\eclipse-workspace\Jenkin\src\test\java\org\runner</testSourceDirectory>
 						<includes>
-							<include>RunnerClass.java</include>
+							<include>Runner.java</include>
 						</includes>
 					</configuration>
 				</plugin>
